@@ -1,7 +1,7 @@
 # PythonProbs1
 
 
-## **" FIRSTPROBLEM"**
+## ** FIRSTPROBLEM**
 S1P1-Welcome Message
 
 Welcome Message
@@ -270,7 +270,7 @@ Enter the number of square tiles available
 8
 Area of the largest possible square is 100sqcm
 
-## **TENTHPROBLEM
+## **TENTHPROBLEM**
 Wisconsin State Fair
  
 Wisconsin State Fair is one of the largest midsummer celebrations in the Midwest Allis, showcasing the agriculture skills and prowess of the state. The Event organizers hired few part-time employees to work at the fair and the agreed salary paid to them are as given below:
