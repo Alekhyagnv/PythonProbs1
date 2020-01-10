@@ -1,0 +1,7 @@
+x1=int(input("Enter the number of people who watched show 1\n"))
+y1=float(input("Enter the average rating for show 1\n"))
+x2=int(input("Enter the number of people who watched show 2\n"))
+y2=float(input("Enter the average rating for show 2\n"))
+x3=int(input("Enter the number of people who watched show 3\n"))
+y3=float(input("Enter the average rating for show 3\n"))
+print("The overall average rating for the show is %.2f"(x1*y1+x2*y2+x3*y3)/(x1+x2+x3)))
