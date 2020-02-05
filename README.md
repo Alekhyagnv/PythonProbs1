@@ -284,6 +284,7 @@ Input Format:
 First line of the input is a double value that corresponds to the total salary paid to Justin.
 
 Output Format:
+
 First line of the output should display the number of hours Justin has worked during the weekdays.
 Second line of the output should display the number of hours Justin has worked during the weekends.
 Refer sample input and output for formatting specifications.
@@ -294,3 +295,345 @@ Enter the total salary paid
 2750
 Number of weekday hours is 25
 Number of weekend hours is 15
+
+
+## **ELEVENTHPROBLEM**
+Welcome
+ 
+A recently launched attraction at the "Events Square" entertainment fair is the "Carnival of Terror" which is an interactive fun zone featuring scary, horror and Halloween stories.
+ 
+The Entry tickets for the show is to be printed with a Welcome message along with an additional message for Children stating they should be accompanied by an adult. Given the age of the person visiting the scary house, the ticket should carry the additional message only for Children whose age is less than 15 years. The show organizers wanted your help to accomplish this task. Write a program that will get age as the input and display the appropriate message on the tickets.
+ 
+Input Format:
+First line of the input is an integer that corresponds to the age of the person.
+
+Output Format:
+Output should display the additional message "Please note that you should be accompanied by an adult" for Children less than 15 years. Otherwise it should print only the Welcome message.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+20
+
+Sample Output 1:
+Welcome to the show
+
+Sample Input 2:
+14
+
+Sample Output 2:
+Welcome to the show
+Please note that you should be accompanied by an adult
+
+
+## **twelfthproblem**
+
+Grades of Rides
+ 
+“AquaticaCarnival” is the most successful event dedicated to children and families. The Event has more than 20 rides for children and adults and the organizers always ensure not to compromise on the safety of the visitors.
+To ensure the safety of the rides, the organizers have graded the rides in the fair according to the following conditions:
+Hurl Factor must be greater than 50.
+Spin Factor must be greater than 60.
+Speed factor must be greater than 100.
+ 
+The grades are as follows:
+Grade is 10 if all three conditions are met.
+Grade is 9 if conditions (i) and (ii) are met.
+Grade is 8 if conditions (ii) and (iii) are met.
+Grade is 7 if conditions (i) and (iii) are met.
+Garde is 6 if only one condition is met.
+Grade is 5 if none of three conditions are met.
+Write a program display the grade of the rides, given the values of hurl factor, spin factor and speed factor of the ride under consideration.
+ 
+Input Format:
+First line of the input consists of 3 integers that gives the Hurl Factor, Spin Factor and Speed Factor of the ride, each separated by a space.
+
+Output Format:
+Output should display the grade of the ride depending on Conditions.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+51 89 150
+
+Sample Output 1:
+10
+
+Sample Input 2:
+45 69 102
+
+Sample Output 2:
+8
+
+
+
+
+## **THIRTEENTHPROBLEM**
+
+Minimum and Maximum
+ 
+The ExConFair is the region's largest trade fair on Construction Equipments & Technology. The Event organizers hired college students as volunteers to work at the fair as the event is targeted to be attended by approx. 30 million visitors.
+ 
+At the Office in the fair, there are two guards who count how many times a volunteer enters into the fair ground. Though the duty of a guard is 24 hour in a day, but sometimes they fall asleep during their duty and could not track the entry of volunteers in the fair ground. But one better thing is that they never fall asleep at the same time. At least one of them remains awake and counts who enters into the office. Now the Event Head wants to calculate how many times a volunteer has entered into the fair ground. He asked to the guard and they give him two integers A and B, count of first guard and second guard respectively.
+Help the Event Head to count the minimum and maximum number of times a volunteer could have entered into the fair ground.
+ 
+Input Format:
+First line of the input consists of two integers that correspond respectively to A and B.
+
+Output Format:
+Output a single line containing two space separated integers, the minimum and maximum number of times a volunteer could have entered into the fair ground.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+19 17
+
+Sample Output 1:
+19 36
+
+Sample Input 2:
+30 40
+
+Sample Output 2:
+40 70
+
+
+## ** FOURTEENTHPROBLEM**
+
+Aayush's Scholarship
+ 
+Aayush studies in Teswan National University. Now is the time for exam results. Aayush similar to other students, hopes that his scores in 5 subjects in the exam could fetch him a scholarship for his GRE preparation.
+ 
+The following simple rules  are used to find whether he is eligible to receive scholarship:
+University follows 5 point grading system. In an exam, a student can receive any score from 2 to 5.  2 is called an F grade, meaning that student has failed that exam.
+Student should not have fail any of the exams.
+Student must obtain a full score in some of his/her exams to show that he/she is excellent in some of the subjects.
+He/She must have a grade point average not less than 4.0
+​You are given information regarding how Aayush performed in those 5 subjects . Help him determine whether he will receive the scholarship or not.
+ 
+Input Format:
+The input contains 5 space separated integers denoting Aayush’s 5 subjects score in the exam.
+ 
+Output Format:
+Output a single line - "Yes" (without quotes) if Aayush will receive scholarship, or "No" (without quotes) otherwise.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+3 5 4 4 3
+
+Sample Output 1:
+No
+
+Sample Input 2:
+3 4 4 4 5
+
+Sample Output 2:
+Yes
+
+
+## ** FIFTEENTHPROBLEM**
+
+
+
+Co-Partners in Train
+ 
+Tim and Bob are off to a famous Education Fair "Knowledge Forum 2017" at Uzhlanda. This time they have to travel without their guardians. Tim got very interested in the arrangement of seats inside the train coach.
+The entire coach could be viewed as an arrangement of consecutive blocks of size 8.
+ 
+BerthNumber	Compartment
+1-8	1
+9-16	2
+17-24	3
+... and so on	 
+Each of these size-8 blocks are further arranged as:
+ 1LB,  2MB,  3UB,  4LB,  5MB,  6UB,  7SL,  8SU
+ 9LB, 10MB, ...
+.......
+.......Here LB denotes lower berth, MB middle berth and UB upper berth.
+ 
+The following berths are called Co-Partners in Train:
+3 UB	6 UB
+2 MB	5 MB
+1 LB	4 LB
+7 SL	8 SUand the pattern is repeated for every set of 8 berths. 
+Tim and Bob are playing this game of finding the co-partner in train of each berth. Write a program to do the same.
+ 
+Input Format:
+The input consists of an integer N, which corresponds to the berth number whose neighbor is to be found out.
+
+Output Format:
+The output is to display the berth of the neighbor of the corresponding seat.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+1
+
+Sample Output 1:
+4LB
+
+Sample Input 2:
+5
+
+Sample Output 2:
+2MB
+ 
+## ** SIXTEENTHPROBLEM**
+
+Seven Segment Display
+ 
+The Event Organizing Company "Buzzcraft" wanted to procure seven segment displays to display any numeric information display boards, scrolling ad banners, etc., to place it in their Events. The Company contracted out their order to MDC team at Orange labs who designs embedded sensing nodes and provides connectivity to tie them to the internet of things.
+
+They are working on building seven segment displays. But the Company wanted to know how many seven segment displays will they need to represent an Integer x. They use one seven segment display to represent one digit of an Integer. For example: Integer "100" needs "3" seven segment boards to be represented.
+
+Help them find out how many displays are needed?
+ 
+Input Format:
+First and only line consists of one positive integer that needs to be represented using seven segment displays.
+
+Output Format:
+Output a single line containing the number of digits of that integer.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+1
+
+Sample Output 1:
+1
+
+Sample Input 2:
+1000
+
+Sample Output 2:
+4
+
+## ** SEVENTEENTHPROBLEM**
+
+
+Lucky Pairs
+ 
+Richie and Riya are participating in a game called "Lucky pairs" at the Annual Game Fair in their Company. As per the rules of the contest, two members form a team and Richie initially has the number A and Riya has the number B.
+There are a total of N turns in the game, and Richie and Riya alternatively take turns. In each turn the player whose turn it is, multiplies his or her number by 2. Richie has the first turn. Suppose after the entire N turns, Richie’s number has become C and Riya’s number has become D. The final score of the team will be the sum of the scores (C+D) of both the players after N turns.
+ 
+Write a program to facilitate the quiz organizers to find the final scores of the teams.
+ 
+Input Format:
+The only line of input contains 3 integers A, B, and N.
+
+Output Format:
+Output a single line which contains the integer that gives the final score of the team which will be the sum of the scores of both the players after N turns.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+1 2 1
+
+Sample Output 1:
+4
+
+Sample Input 2:
+3 2 3
+
+Sample Output 2:
+16
+
+## ** EIGHTEENTHPROBLEM**
+
+Candy Game
+ 
+Mona set off with great zeal to the "Fun Fair 2017". There were numerous activities in the fair, though Mona liked the Candy game. Delicious candies were wrapped in colourful foiled sheets with some random numbers on each of the candies. The game coordinators then formed many groups of few candies together, such that each candy group makes an integer and hid them all around the room. The objective of the game is that the players should look for the occurrences of number four anywhere in the integers (candy groups) placed in the room.
+ 
+Mona started off with the game where there are many such integers, for each of them she should calculate the number of occurrences of the digit 4 in the decimal representation. Can you please help her in succeeding the game?
+ 
+Input Format:
+The only line of input contains a single integer from the candy group.
+
+Output Format:
+Output should contain the number of occurrences of the digit 4 in the respective integer from the candy groups that Mona gets.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+447474
+
+Sample Output 1:
+4
+
+Sample Input 2:
+12
+
+Sample Output 2:
+0
+
+## ** NINETEENTHPROBLEM**
+
+Charity Dinner
+ 
+WeCanNGO Trust is organizing a charity dinner at St. John’s College. Since older students are both wiser and richer, the members of the trust decide that the price of each ticket will be based on how many years the students have been in the school. A first year student will buy a PINK ticket, a second year student will buy a GREEN ticket, a third year student will buy a RED ticket, and a fourth year student will buy an ORANGE ticket.
+
+Assume that all tickets are sold. Each colour of ticket is uniquely priced. Write a program to output all combinations of tickets that produce exactly the desired amount to be raised. The combinations may appear in a specific order. First ORANGE is considered, then RED, then GREEN and finally PINK. Also display the total number of combinations found and the smallest number of tickets to be printed to raise the desired amount so that printing cost is minimized.
+
+Input Format:
+First 4 lines of the input correspond to the cost of a PINK, GREEN, RED, ORANGE ticket (in the exact order).
+Last line of the input corresponds to the exact amount of money to be raised by selling tickets.
+
+Output Format:
+Output all combinations of tickets that produce exactly the desired amount to be raised. The combinations may appear in any order. Output the total number of combinations found. Output the smallest number of tickets to print to raise the desired amount so that printing cost is minimized.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+1
+2
+3
+4
+3
+
+Sample Output 1:
+# of PINK is 0 # of GREEN is 0 # of RED is 1 # of ORANGE is 0
+# of PINK is 1 # of GREEN is 1 # of RED is 0 # of ORANGE is 0
+# of PINK is 3 # of GREEN is 0 # of RED is 0 # of ORANGE is 0
+Total combinations is 3
+Minimum number of tickets to print is 1
+
+Sample Input 2:
+1
+2
+4
+3
+4
+
+Sample Output 2:
+# of PINK is 0 # of GREEN is 0 # of RED is 1 # of ORANGE is 0
+# of PINK is 0 # of GREEN is 2 # of RED is 0 # of ORANGE is 0
+# of PINK is 1 # of GREEN is 0 # of RED is 0 # of ORANGE is 1
+# of PINK is 2 # of GREEN is 1 # of RED is 0 # of ORANGE is 0
+# of PINK is 4 # of GREEN is 0 # of RED is 0 # of ORANGE is 0
+Total combinations is 5
+Minimum number of tickets to print is 1
+
+
+## ** TWENTYPROBLEM**
+
+Fair Francis
+ 
+"Think Academy" has arranged for a competitive test for engineering students from rural villages. Those successful students of the test will be awarded the scholarship for their GRE/TOEFL preparations at Think Academy. Francis, the co-coordinator and founder of the academy has N different problemsets and there are N students who are appearing for the test. Each problemset contains zero or more problems. He will give each student exactly one problemset. But the problemsets might contain different number of problems in each one, which looks unfair.
+
+Since Francis is a fair tutor, he decided to move some problems from problemset to another problemset (he can do this multiple times), until all problemsets contain the same number of problems.
+
+Sometimes it's impossible to do so, and he might need to delete some problems completely before moving any problem, then he will start moving the problems. He needs your help to write a program to calculate the minimum number of problems to be deleted, and the minimum number of problems to be moved.
+
+Input Format:
+First line of the input contains one integer N (1 <= N <= 100) representing the number of problemsets and the number of trainees.
+Second line of the input contains N non-negative integers separated by a single space, representing the number of problems in each problemset. Each problemset will contain at most 100 problems.
+
+Output Format:
+Output a single line which will contain the minimum number of problems to be deleted, followed by a space then the minimum number of problems to be moved.
+Refer sample input and output for formatting specifications.
+
+Sample Input 1:
+3
+3 3 3
+
+Sample Output 1:
+0 0
+
+Sample Input 2:
+4
+6 4 5 3
+
+Sample Output 2:
+2 1
